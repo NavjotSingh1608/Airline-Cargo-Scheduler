@@ -43,6 +43,7 @@ function App() {
           <div className="bg-white rounded-lg shadow p-4">
             <FlightTimelineChart flights={flights} />
           </div>
+          
           <div className="bg-white rounded-lg shadow p-4">
             <TerminalUsageChart flights={flights} />
           </div>
