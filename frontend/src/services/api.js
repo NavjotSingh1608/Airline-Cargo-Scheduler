@@ -1,5 +1,5 @@
 import axios from 'axios';
-const BASE = import.meta.env.VITE_API_BASE/api || 'http://localhost:5000/api'
+const BASE = 'import.meta.env.VITE_API_BASE/api' || 'http://localhost:5000/api'
 
 export const getAllFlights = async () => (await axios.get(`${BASE}/flights`)).data;
 export const getAllCargo = async () => (await axios.get(`${BASE}/cargo`)).data;
